@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.android.atiqorin.musicaly.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/recent"
+            android:background="#1B5E20"
+            android:text="Recent Releases"
+            android:textSize="32sp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/weeklyTop"
+            android:background="#00BCD4"
+            android:text="Weekly Top Charts"
+            android:textSize="32sp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/top50"
+            android:background="#009688"
+            android:text="Top 50 songs"
+            android:textSize="32sp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/favourits"
+            android:background="#8BC34A"
+            android:text="Favourite songs"
+            android:textSize="32sp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/browse"
+            android:background="#FF9800"
+            android:text="Browse Songs"
+            android:textSize="32sp"/>
+    </LinearLayout>
+</ScrollView>
